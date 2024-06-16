@@ -1,0 +1,62 @@
+body {
+    background-image: url('../Data/Picstory.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+form input {
+    width: calc(100% - 0px);
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form input::placeholder {
+    color: #888;
+}
